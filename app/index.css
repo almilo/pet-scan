@@ -1,3 +1,11 @@
+/* custom styles */
+.lamp-wish {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* default styles */
 .genie-lamp-container {
     opacity: 0;
 }
