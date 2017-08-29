@@ -5,6 +5,18 @@
     text-overflow: ellipsis;
 }
 
+.ps-icon-failure {
+    color: red;
+}
+
+.ps-icon-task {
+    color: green;
+}
+
+.ps-icon-custom-value {
+    color: blue;
+}
+
 /* default styles */
 .genie-lamp-container {
     opacity: 0;
