@@ -66,7 +66,8 @@ function fetchAndIndexFailures(scanPublicId) {
 
     function createFailureIndexer(scanPublicId) {
         return ({message}, exceptionIndex) => indexData(
-            message, () => navigateToSectionItem(scanPublicId, 'failure', 'top', exceptionIndex, true),
+            message,
+            () => navigateToSectionItem(scanPublicId, 'failure', 'top', exceptionIndex, true),
             'FAILURE'
         );
     }
